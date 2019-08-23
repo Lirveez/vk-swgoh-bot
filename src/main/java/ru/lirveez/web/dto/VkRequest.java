@@ -6,7 +6,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class VkRequest {
-    private String type;
+    private Type type;
     private NewMessageObject object;
-    private String group_id;
 }

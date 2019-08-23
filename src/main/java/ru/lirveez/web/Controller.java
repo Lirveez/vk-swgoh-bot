@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ru.lirveez.web.dto.VkRequest;
 
+import static ru.lirveez.web.dto.Type.CONFIRMATION;
+import static ru.lirveez.web.dto.Type.NEW_MESSAGE;
+
 @RestController
 @Validated
 @RequestMapping("/bot")
@@ -24,8 +27,11 @@ public class Controller {
 
     @PostMapping(value = "/dnm")
     public String handle(@RequestBody VkRequest request) {
-        if (request.getType().equals("confirmation"))
+        if (request.getType().equals(CONFIRMATION)) {
             return confirmationCode;
+        } else if (request.getType().equals(NEW_MESSAGE)) {
+
+        }
         return okStatus;
     }
 }

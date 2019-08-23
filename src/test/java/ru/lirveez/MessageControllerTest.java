@@ -25,7 +25,9 @@ public class MessageControllerTest {
     private MockMvc mvc;
 
     @Value("${bot.confirmationCode}")
-    private String confiramtionCode;
+    private String confirmationCode;
+    @Value("${bot.statusOk}")
+    private String responseOk;
 
     @Test
     @SneakyThrows
@@ -37,7 +39,7 @@ public class MessageControllerTest {
                         "}"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string(confiramtionCode));
+                .andExpect(content().string(confirmationCode));
     }
 
     @Test
@@ -50,7 +52,7 @@ public class MessageControllerTest {
                         "}"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("ok"));
+                .andExpect(content().string(responseOk));
     }
 
     @Test
@@ -63,6 +65,23 @@ public class MessageControllerTest {
                         "}"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string(confiramtionCode));
+                .andExpect(content().string(confirmationCode));
     }
+    @Test
+    @SneakyThrows
+    public void shouldDeserializeCorrectlyWithoutFailures() {
+        mvc.perform(MockMvcRequestBuilders.post("/bot/dnm").contentType(MediaType.APPLICATION_JSON)
+                .content("{\n" +
+                        "  \"type\": \"message_new\",\n" +
+                        "  \"object\": {\n" +
+                        "    \"text\": \"123\",\n" +
+                        "    \"notNeededProperty\": \"blabla\"\n" +
+                        "  },\n" +
+                        "  \"group_id\": 1\n" +
+                        "}"))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(content().string(responseOk));
+    }
+
 }
