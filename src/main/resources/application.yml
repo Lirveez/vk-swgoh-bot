@@ -3,3 +3,4 @@ server:
 bot:
   statusOk: ok
   confirmationCode: cc112ab5
+  token: txt
