@@ -8,4 +8,5 @@ import lombok.Data;
 public class VkRequest {
     private Type type;
     private NewMessageObject object;
+    private String group_id;
 }

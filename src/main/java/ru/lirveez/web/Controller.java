@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import ru.lirveez.service.NewMessageHandler;
 import ru.lirveez.web.dto.VkRequest;
 
 import static ru.lirveez.web.dto.Type.CONFIRMATION;
@@ -20,6 +21,8 @@ import static ru.lirveez.web.dto.Type.NEW_MESSAGE;
 @Slf4j
 public class Controller {
 
+    private final NewMessageHandler newMessageHandler;
+
     @Value("${bot.statusOk}")
     private String okStatus;
     @Value("${bot.confirmationCode}")
@@ -27,10 +30,11 @@ public class Controller {
 
     @PostMapping(value = "/dnm")
     public String handle(@RequestBody VkRequest request) {
+        log.info("Receiverd new request: {}", request);
         if (request.getType().equals(CONFIRMATION)) {
             return confirmationCode;
         } else if (request.getType().equals(NEW_MESSAGE)) {
-
+            newMessageHandler.handle(request.getObject());
         }
         return okStatus;
     }
