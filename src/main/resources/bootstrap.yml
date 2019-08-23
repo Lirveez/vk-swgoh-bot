@@ -1,0 +1,5 @@
+server:
+  port: 11011
+bot:
+  statusOk: ok
+  confirmationCode: cc112ab5
