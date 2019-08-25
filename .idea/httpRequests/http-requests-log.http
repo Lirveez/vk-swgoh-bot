@@ -1,0 +1,67 @@
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-25T061926.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-25T061201.500.json
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "  object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-25T061032.500.json
+
+###
+
+GET http://swgoh.gg/api/player/336567646/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-25T053818.200.json
+
+###
+
+GET http://swgoh.gg/api/player/336567646/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-25T053750.200.json
+
+###
+

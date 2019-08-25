@@ -48,6 +48,10 @@ public class MessageControllerTest {
         mvc.perform(MockMvcRequestBuilders.post("/bot/dnm").contentType(MediaType.APPLICATION_JSON)
                 .content("{\n" +
                         "  \"type\": \"message_new\",\n" +
+                        "  \"object\": {\n" +
+                        "    \"text\": \"123\",\n" +
+                        "    \"notNeededProperty\": \"blabla\"\n" +
+                        "  },\n" +
                         "  \"group_id\": 152240979\n" +
                         "}"))
                 .andDo(print())

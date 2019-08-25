@@ -3,4 +3,19 @@ server:
 bot:
   statusOk: ok
   confirmationCode: cc112ab5
-  token: 52ee9edce526f883107494175d832c000bec877e2c452e5c60ae312d9be33d0ac93df02f55168de5adefe
+  message:
+    url: https://api.vk.com/method
+    path: /messages.send
+    chatIdParam: chat_id
+    messageParam: message
+    apiVersionParam: v
+    apiVersionValue: 5.80
+    tokenParam: access_token
+    tokenValue: ""
+  commands:
+    getPlayers: /players
+  conversations:
+    test: "152240979"
+    flud: ""
+    officer: ""
+    announcements: ""

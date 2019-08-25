@@ -30,11 +30,11 @@ public class Controller {
 
     @PostMapping(value = "/dnm")
     public String handle(@RequestBody VkRequest request) {
-        log.info("Receiverd new request: {}", request);
+        log.info("Received new request: {}", request);
         if (request.getType().equals(CONFIRMATION)) {
             return confirmationCode;
         } else if (request.getType().equals(NEW_MESSAGE)) {
-            newMessageHandler.handle(request.getObject());
+            newMessageHandler.handle(request);
         }
         return okStatus;
     }
