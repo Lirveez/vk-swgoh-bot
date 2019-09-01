@@ -11,6 +11,374 @@ Content-Type: application/json
   "group_id": "152240979"
 }
 
+<> 2019-09-01T041033.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-09-01T040704.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-09-01T034130.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-27T120352.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T101921.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T101732.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T101711.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T101700.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T101651.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T095900.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T095754.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T095627.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T095503.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T095319.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T092840.500.json
+
+###
+
+POST http://lirveez.ddns.net/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-26T092610.500.json
+
+###
+
+POST http://lirveez.ddns.net/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-25T073838.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-25T073826.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
+<> 2019-08-25T064129.200.txt
+
+###
+
+POST http://localhost:11011/bot/dnm
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "type": "message_new",
+  "object": {
+    "text": "/players"
+  },
+  "group_id": "152240979"
+}
+
 <> 2019-08-25T061926.200.txt
 
 ###

@@ -24,7 +24,7 @@ public class VkRestService {
     private final VkRestConfigurationData vkRestConfigurationData;
 
     public void sendMessageToConversation(Conversation conversation, String message) {
-        String url = buildVkUrl(vkRestConfigurationData.getPath(), conversation, message);
+        String url = buildVkUrl(vkRestConfigurationData.getPath());
 
         MultiValueMap<String, String> body = new LinkedMultiValueMap<>();
         body.put(vkRestConfigurationData.getApiVersionParam(), Collections.singletonList(vkRestConfigurationData.getApiVersionValue()));
@@ -45,7 +45,7 @@ public class VkRestService {
         );
     }
 
-    private String buildVkUrl(String path, Conversation conversation, String message) {
+    private String buildVkUrl(String path) {
         return UriComponentsBuilder
                 .fromHttpUrl(vkRestConfigurationData.getUrl().trim())
                 .path(path.trim())

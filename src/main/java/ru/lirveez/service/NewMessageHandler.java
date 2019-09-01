@@ -3,6 +3,7 @@ package ru.lirveez.service;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import ru.lirveez.service.google.GoogleService;
 import ru.lirveez.service.vk.ConversationService;
 import ru.lirveez.service.vk.VkRestService;
 import ru.lirveez.web.dto.VkRequest;
